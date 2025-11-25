@@ -30,6 +30,7 @@ permalink: /diaries/
           <a href="/diaries/{{ author_key }}/" class="view-diaries">查看日记 →</a>
         </article>
       {% endif %}
+    {% endunless %}
     {% endfor %}
   </div>
 </section>
